@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+  }
+  body {
+    padding-left: 100px; 
+  
+  }
+  p {
+    font-size: 18px; 
+    
+  }
+  
+  .custom-style.heading {
+    font-family:  monospac;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .custom-list {
+    font-family: "Your Desired Font", sans-serif; 
+  
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .subheading {
+    font-family: "Lato", sans-serif; 
+    font-size: 20px; 
+    font-weight: bold; 
+  }
+  
+  
+  .custom-paragraph {
+    font-family: "Your Desired Font", sans-serif; 
+    text-align: left;
+  
+  
+  }
+  
+  .content {
+    display:table-column;
+    margin-left: 400px;
+    width: 650px;
+    font-size:25px ;
+    line-height: 1.5;
+  }
+  
+  
+  
+  
+  
+  .content-center {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    z-index: 1;
+    font-size: 46px;
+    line-height: 1.3; 
+    padding-left: 160px; 
+   }
+  
+  
+  
+  .content-right img {
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+    
+  }
+  
+  
+ 
+
+
+.back {
+    /* background: linear-gradient(90deg, rgba(76,160,174,1) 0%, rgba(196,224,229,1) 100%); */
+    
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+
+.container {
+    background: rgb(76,160,174);
+    background: linear-gradient(90deg, rgba(76,160,174,1) 0%, rgba(196,224,229,1) 100%);
+    }
+  
+
+
+.image1 {
+    height: 260px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.image2 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image3 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image4 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image5 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image6 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image7 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image8 {
+    height: 208px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image9 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image10 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.image11 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(24,174,209,1) 0%, rgba(42,99,115,1) 100%, rgba(0,44,57,1) 100%);
+
+}
+h1 {
+    text-align: left;
+}
+
+.about a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.about {
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    top: -54px;
+}

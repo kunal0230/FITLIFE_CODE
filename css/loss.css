@@ -1,0 +1,227 @@
+
+.banner {
+    width: 100%;
+    background-image: url(../img/main_1.png );
+    background-repeat: no-repeat;
+  }
+
+  .banner_left {
+    margin-bottom: 1rem;
+  }
+  
+  .banner_left p {
+    margin: 0.5rem 0 2rem 0;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .banner_box {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* background-image: url(../images/circle2.svg); */
+    background-repeat: no-repeat;
+    /* background-position: bottom -100px left -80px; */
+  }
+
+
+.back {
+/* background: linear-gradient(90deg, rgba(76,160,174,1) 0%, rgba(196,224,229,1) 100%); */
+
+background: rgb(24,174,209);
+background: linear-gradient(180deg, rgba(24,174,209,1) 0%, rgba(42,99,115,1) 100%, rgba(0,44,57,1) 100%);
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+
+
+.container {
+background: rgb(76,160,174);
+background: linear-gradient(90deg, rgba(76,160,174,1) 0%, rgba(196,224,229,1) 100%);
+}
+
+.custom-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Modify the values as needed */
+    transition: box-shadow 0.3s ease-in-out; /* Optional: Add a transition effect */
+
+    /* You can also add other styling properties */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+}
+
+.custom-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow on hover */
+}
+
+.image1 {
+    height: 260px; /* Adjust the height as needed */
+    object-fit: cover;
+} 
+
+.image2 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image3 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+    padding: 10px;
+}
+.image4 {
+    height: 235px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+.image5 {
+  height: 235px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.image6 {
+    height: 206px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+
+
+section {
+  width: 100%;
+  
+}
+
+.feature_box {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.feature_img {
+  height: 350px;
+  
+  object-fit: contain;
+  margin-top: 2rem;
+}
+
+.feature_img3 {
+  margin-bottom: 4rem;
+}
+
+.feature_content h2 {
+  display: inline-block;
+  height: 2.875rem;
+}
+
+.feature_content p {
+  margin: 2rem 0 1.5rem 0;
+  font-size: 1.125rem;
+}
+
+.link {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.link:hover {
+  opacity: 80%;
+}
+
+.feature_content li {
+  color: #000000;
+  padding-left: 2.25rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  background-image: url(../images/f1.svg);
+  background-size: fit-content;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-top: 1rem;
+}
+
+.feature_content .li2 {
+  background-image: url(../images/f2.svg);
+}
+
+.feature_content .li3 {
+  background-image: url(../images/f3.svg);
+}
+
+.feature_content .li4 {
+  background-image: url(../images/f4.svg);
+}
+
+.feature_content .li5 {
+  background-image: url(../images/f5.svg);
+}
+
+.feature_content .li6 {
+  background-image: url(../images/f6.svg);
+}
+
+.feature_content .li7 {
+  background-image: url(../images/f7.svg);
+}
+
+.feature_content .li8 {
+  background-image: url(../images/f8.svg);
+}
+
+.feature_content .li9 {
+  background-image: url(../images/f9.svg);
+}
+
+h1 {
+    text-align: start;
+    
+}
+
+.about a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.about {
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    top: -54px;
+}
+
+@media (min-width: 768px) {
+  
+    .banner_box {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-position: bottom -80px left 10%;
+      padding: 7rem 1.5rem 9rem 1.5rem;
+    }
+  
+    .banner_left {
+      max-width: 50%;
+    }
+  
+    .banner h1 {
+      font-size: 4rem;
+    }
+  
+    .banner_left p {
+      margin: 0.5rem 0 3rem 0;
+    }
+  
+
+ 
+
+  }
